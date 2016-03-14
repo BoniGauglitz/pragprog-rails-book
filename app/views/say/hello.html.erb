@@ -2,9 +2,22 @@
 <p>
    It is now <%= @time %>
 </p>
+
 <p>
-  Say <a href="/say/goodbye"> Goodbye </a>
+  result of 1+2 =
+  <%= simple_sum %>
 </p>
+
+<p>
+  Concat cow + boy =
+  <%= @cowboy %>
+</p>
+
+<p>
+  Time to say
+  <%= link_to "Goodbye", say_goodbye_path %>
+</p>
+
 <p>
   Remember the HTML <a href="http://www.w3schools.com/tags/"> TAGS </a>
 </p>

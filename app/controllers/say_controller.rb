@@ -1,6 +1,11 @@
 class SayController < ApplicationController
   def hello
     @time = Time.now
+    @cowboy = concat_cow_boy
+  end
+
+  def concat_cow_boy
+    return "cow" + "boy"
   end
 
   def goodbye
