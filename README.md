@@ -1,3 +1,3 @@
-# Pragmatic Programmer Rails Book examples
+# Pragmatic Rails Book examples
 
-Just me practicing pragprog sample codes.
+Just me practicing rails book sample codes.
