@@ -18,6 +18,13 @@
   <%= link_to "Goodbye", say_goodbye_path %>
 </p>
 
+<ul>
+  Show local files
+  <% for file in @local_files %>
+  <li> <%= file %> </li>
+  <% end %>
+</ul>
+
 <p>
   Remember the HTML <a href="http://www.w3schools.com/tags/"> TAGS </a>
 </p>
